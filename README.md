@@ -14,7 +14,7 @@ We will need some packages that you can install like this:
 
 # Some resources
 
-* Comunidad de desarrolladores de bioinformatica: https://www.youtube.com/channel/UCHCdYfAXVzJIUkMoMSGiZMw
+* Comunidad de desarrolladores de software de bioinformatica: https://www.youtube.com/channel/UCHCdYfAXVzJIUkMoMSGiZMw
 * Google, [StackOverflow](http://stackoverflow.com/questions/tagged/r) o [RStudio Community](https://community.rstudio.com).
 * To learn more about a package [Rdocumentation.org](http://www.rdocumentation.org/).    
 * [R for Data Science](http://r4ds.had.co.nz/) of Hadley Wickham.  
