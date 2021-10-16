@@ -13,7 +13,7 @@ install.packages(c("tidyverse", "plotly", "palmerpenguins"))
 
 Load the librarys that I will use
 
-```{r message=TRUE, warning=FALSE}
+```{r message=FALSE, warning=FALSE}
 library(palmerpenguins)
 library(tidyverse)
 library(plotly)
