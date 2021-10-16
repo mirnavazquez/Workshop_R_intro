@@ -6,7 +6,6 @@ library(tidyverse)
 library(plotly)
 # Explore the dataset -----------------------------------------------------####
 penguins
-as.data.frame(penguins)
 View(penguins)
 # Export and import -------------------------------------------------------####
 write.table(penguins, file = "Pinguinos", quote = F, sep = "\t", row.names = F)
