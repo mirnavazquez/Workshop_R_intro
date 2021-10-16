@@ -1,0 +1,43 @@
+---
+title: "My first R markdown"
+author: "Mirna Vazquez Rosas Landa"
+date: "10/15/2021"
+output: html_document
+---
+
+First I will install the packages, **this step I will do it just once**.
+
+```{r setup, eval=FALSE}
+install.packages(c("tidyverse", "plotly", "palmerpenguins"))
+```
+
+Load the librarys that I will use
+
+```{r message=TRUE, warning=FALSE}
+library(palmerpenguins)
+library(tidyverse)
+library(plotly)
+```
+
+## Create a plot
+
+```{r}
+my_first_plot<-penguins %>%
+  filter(!is.na(sex)) %>%
+  ggplot(aes(x=bill_length_mm, y=body_mass_g, shape= sex, color=species)) +
+  geom_point()
+```
+
+```{r}
+my_first_plot
+```
+
+### Use plotly to make it interactive
+
+```{r}
+ggplotly(my_first_plot)
+```
+
+
+
+
